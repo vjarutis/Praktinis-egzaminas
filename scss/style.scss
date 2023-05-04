@@ -59,6 +59,7 @@ header {
       width: 247px;
     }
   }
+
   .right-1 {
     height: 100%;
     width: 48%;
@@ -94,4 +95,50 @@ header {
   height: 105px;
   background: #FFFFFF;
   display: flex;
+}
+
+i {
+  color: #E27866;
+  height: 80px;
+  width: 80px;
+}
+
+.mountain {
+  max-width: 1400px;
+  height: 600px;
+  background: url(../images/bg2.png);
+}
+
+.a {
+  max-width: 1400px;
+  height: 600px;
+  background: #1c1c1c;
+}
+
+.awesome {
+  max-width: 1400px;
+  height: 600px;
+}
+
+.pricing {
+  max-width: 1400px;
+  height: 880px;
+  background: #6696E2;
+}
+
+.slider {
+  max-width: 1400px;
+  height: 590px;
+}
+
+.contact-us {
+  max-width: 1400px;
+  height: 570px;
+  background: #E27866;
+}
+
+footer {
+  max-width: 1400px;
+  height: 125px;
+  background: #1c1c1c;
 }
