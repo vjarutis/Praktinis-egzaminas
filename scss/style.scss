@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: montserrat;
+}
+
+header {
+  max-width: 1400px;
+  height: 72px;
+  background: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  .logo {
+    width: 48%;
+    margin: auto;
+    img {
+      padding-left: 100px;
+    }
+  }
+  nav {
+    width: 48%;
+    padding-right: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+  }
+  a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 14px;
+  }
+}
