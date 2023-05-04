@@ -35,3 +35,63 @@ header {
     font-size: 14px;
   }
 }
+
+.city {
+  max-width: 1400px;
+  height: 640px;
+  background: url(../images/bg1.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-y: -140px;
+  display: flex;
+  align-items: center;
+  h1, p {
+    color: #FFFFFF;
+  }
+  .left-1 {
+    height: 100%;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    img {
+      height: 108px;
+      width: 247px;
+    }
+  }
+  .right-1 {
+    height: 100%;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+    .get-started {
+      height: 425px;
+      width: 360px;
+      background: #FFFFFF;
+      display: flex;
+      flex-direction: column;
+      .input {
+        display: flex;
+        flex-direction: column;
+      }
+      .subscription {
+        display: flex;
+        flex-direction: row;
+        .check {
+          display: flex;
+          flex-direction: row;
+          p {
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}
+
+.social {
+  max-width: 1400px;
+  height: 105px;
+  background: #FFFFFF;
+  display: flex;
+}
