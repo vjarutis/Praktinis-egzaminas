@@ -86,6 +86,7 @@ header {
       color: white;
       width: 130px;
       height: 40px;
+      transition: 0.3s;
     }
     button:hover {
       cursor: pointer;
@@ -622,6 +623,11 @@ header {
       border-radius: 4px;
       background: #41D395;
       color: #FFFFFF;
+      transition: 0.3s;
+    }
+    button:hover {
+      cursor: pointer;
+      transform: scale(1.2);
     }
   }
 }
