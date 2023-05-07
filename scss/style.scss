@@ -8,7 +8,13 @@ body {
   font-family: montserrat;
 }
 
-
+i:hover {
+  cursor: pointer;
+  transform: scale(1.2);
+}
+i, button {
+  transition: 0.3s;
+}
 
 header {
   width: 100%;
@@ -79,6 +85,10 @@ header {
       color: white;
       width: 130px;
       height: 40px;
+    }
+    button:hover {
+      cursor: pointer;
+      transform: scale(1.2);
     }
   }
 
@@ -151,8 +161,16 @@ header {
         margin: auto;
         margin-top: 34px;
         border: none;
+        border-radius: 0 0 4px 4px;
         background: #41D395;
+        color: #FFFFFF;
+        }
+        button:hover {
+          cursor: pointer;
+          transform: scale(0.9);
+          border-radius: 4px;
       }
+
     }
   }
 }
@@ -211,11 +229,20 @@ header {
         height: 80px;
         width: 80px;
         background: #E27866;
-        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: 0.3s;
         p {
-          padding-top: 30px;
-          padding-right: 30px;
           transform: rotate(-45deg);
+          transition: 0.3s;
+        }
+      }
+      #tab:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+        p {
+          transform: rotate(0)
         }
       }
     }
@@ -458,10 +485,76 @@ header {
   }
 }
 
-.swiper {
+.reviews {
   max-width: 1400px;
   height: 590px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  .top-3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    h2 {
+      font-size: 36px;
+    }
+    hr {
+      border: 2px solid #6696E2;
+      border-radius: 4px;
+      width: 40px;
+    }
+  }
+  .swiper {
+    width: 80%;
+    height: 65%;
+    .swiper-pagination-bullet {
+      border: 1px solid #E27866;
+      background: none;
+      width: 15px;
+      height: 15px;
+    }
+  }
+  .swiper-slide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    .chatbubble {
+      .square {
+        height: 150px;
+        width: 300px;
+        padding: 20px;
+        background: #6696E2;
+        border-radius: 8px;
+        p {
+          color: #FFFFFF;
+          font-size: 16px;
+        }
+      }
+      .triangle {
+        width: 0; 
+        height: 0;
+        padding-left: 10px;
+        border-bottom: 10px solid transparent;
+        border-left: 10px solid transparent; 
+        border-right:10px solid #6696E2; 
+      }
+    }
+    .customer {
+      width: 300px;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: start;
+      gap: 20px;
+    }
+  }
 }
+
 
 .contact-us {
   max-width: 1400px;
