@@ -25,11 +25,11 @@ const swiper = new Swiper('.swiper', {
             slidesPerView: 3,
         },
 
-        600: {
+        750: {
             slidesPerView: 2,
         },
 
-        320: {
+        300: {
             slidesPerView: 1,
         },
     },

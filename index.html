@@ -12,6 +12,7 @@
   <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"
+  
 />
 </head>
 <body>
@@ -78,15 +79,24 @@
     </section>
     <section class="mountain">
       <div class="left-2">
-        <div class="tabs">
-          <div class="register" id="tab"><p>Register</p></div>
-          <div class="apply" id="tab"><p>Apply</p></div>
-          <div class="receive" id="tab"><p>Receive</p></div>
+        <div class="buttons">
+          <button onclick="showTab(event, 'register')">Register</button>
+          <button onclick="showTab(event, 'apply')">Apply</button>
+          <button onclick="showTab(event, 'receive')">Receive</button>
         </div>
         <div class="content">
-          <h2>Tabs with soft transitioning effect. Explained propriety of out perpetual his you.</h2><br><br>
-          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In reiciendis blanditiis perspiciatis adipisci id recusandae ipsa dolorem pariatur odio. Natus consequuntur dolore assumenda deserunt libero non vitae unde, sit voluptatem.</p><br>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nam beatae aspernatur accusantium.</p>
+          <div class="tab" id="register" style="display: block"><h2>Tabs with soft transitioning effect. Explained propriety of out perpetual his you.</h2><br><br>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In reiciendis blanditiis perspiciatis adipisci id recusandae ipsa dolorem pariatur odio. Natus consequuntur dolore assumenda deserunt libero non vitae unde, sit voluptatem.</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nam beatae aspernatur accusantium.</p></div>
+          <div class="tab" id="apply" style="display: none">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In reiciendis blanditiis perspiciatis adipisci id recusandae ipsa dolorem pariatur odio. Natus consequuntur dolore assumenda deserunt libero non vitae unde, sit voluptatem.</p><br>
+            <h2>Tabs with soft transitioning effect. Explained propriety of out perpetual his you.</h2><br><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nam beatae aspernatur accusantium.</p></div>
+          <div class="tab" id="receive" style="display: none">
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. In reiciendis blanditiis perspiciatis adipisci id recusandae ipsa dolorem pariatur odio. Natus consequuntur dolore assumenda deserunt libero non vitae unde, sit voluptatem.</p><br>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque nam beatae aspernatur accusantium.</p><br><br>
+            <h2>Tabs with soft transitioning effect. Explained propriety of out perpetual his you.</h2>
+          </div>
         </div>
       </div>
       <div class="right-2">
@@ -310,6 +320,7 @@
           <button>SEND</button>
         </div>
     </section>
+    <script src="script.js"></script>
   </main>
   <footer>
     <div class="icons">
