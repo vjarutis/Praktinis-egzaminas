@@ -1,0 +1,43 @@
+#about {
+    width: 100%;
+    height: 600px;
+    background: #1c1c1c;
+    display: flex;
+    align-items: center;
+    .left-3 {
+      width: 50%;
+      display: flex;
+      justify-content: center;
+    }
+    .right-3 {
+      width: 50%;
+      display: flex;
+      flex-direction: column;
+      padding-right: 150px;
+      gap: 15px;
+      color: #FFFFFF;
+      hr {
+        width: 190px;
+        border: 2px solid #E27866;
+        border-radius: 4px;
+      }
+      .one, .two {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        #icon {
+          height: 40px;
+          width: 40px;
+          border-radius: 100px;
+          background: #E27866;
+          text-align: center;
+          i {
+            color: white;
+            height: 40px;
+            width: 40px;
+            padding-top: 10px;
+          }
+        }
+      }
+    }
+  }

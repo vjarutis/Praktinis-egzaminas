@@ -1,0 +1,29 @@
+#social {
+    width: 100%;
+    height: 105px;
+    background: #FFFFFF;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .text {
+      margin-left: 100px;
+      h2 {
+        color: #333333;
+        font-size: 20px;
+      }
+      p {
+        color: #86878B;
+        font-size: 14px;
+        padding-top: 10px;
+      }
+    }
+    .icons {
+      padding-top: 50px;
+      margin-right: 100px;
+      i {
+        color: #E27866;
+        height: 80px;
+        width: 80px;
+      }
+    }
+  }
