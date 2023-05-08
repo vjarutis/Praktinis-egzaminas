@@ -658,7 +658,7 @@ footer {
   }
 }
 
-@media (max-width: 320px){
+@media (min-width: 320px),(max-width: 600px){
   .city {
     height: 1200px;
     flex-direction: column;
@@ -725,9 +725,10 @@ footer {
       height: 400px;
     h2 {
       font-size: 24px;
+      text-align: center;
     }
     p {
-      margin-left: 20px;
+      text-align: center;
     }
     }
     .bottom-1 {
